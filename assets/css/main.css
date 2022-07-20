@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f9f7e8;
+	
+}
+
+.container-1{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.topic{
+	display: flex;
+	font-size: 150px;
+	color: #62bfad;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Luckiest Guy', cursive;
+	position: absolute;
+}
+
+.welcome-topic2{
+	display: flex;
+	font-size: 80px;
+	color: #62bfad;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h2 span{
+	transition: 1.5s;
+	background-color: #f9f7e8;
+
+}
+
+h2:hover span{
+	filter:blur(20px);
+	opacity:0;
+	transform:scale(2);
+}
+
+
+.container-2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card{
+	margin: 20px 60px 60px 60px;
+}
+.card-img{
+	width: 300px;
+	border-radius: 2%;
+}
+.card-title{
+	margin: 0 0 10px 0;
+	font-weight: lighter;
+
+}
+.text{
+	margin-left: 90px;
+	font-weight: lighter;
+	
+}
+
+  .button {
+    background-color: #62bfad; 
+    border: none;
+    color: #f9f7e8;
+	border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #f9f7e8; 
+    color: black; 
+    border: 2px solid #62bfad;
+	font-weight: lighter;
+}
+
+.button1:hover {
+    background-color: #62bfad;
+    color: #f9f7e8;
+	font-weight: lighter;
+
+}
+
+  ul {
+	position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+	background-color: #f9f7e8;
+	color: #62bfad;
+    
+}
+
+li {
+    float: left;
+	margin: 20px 20px 20px 20px;
+	font-size: 20px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+li a {
+    display: block;
+    color: #62bfad;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #1e7262;
+}
+
+li a.active {
+    font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	padding: 0;
+    
+}
+
+@import url('http://fonts.font,im/css?family=Righteous');
+.circle{
+	width: 45vh;
+	height: 45vh;
+	border-radius: 50%;
+	color: #62bfad;
+	font-size: 7vh;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Righteous';
+	text-align: center;
+	animation:spin 20s linear infinite;
+	margin-left: 25%;
+	margin-bottom: 50px;
+}
+.circle span{
+	position:absolute;
+	left:0;
+	top:0;
+	right: 0;
+	bottom: 0;
+}
+@keyframes spin{
+	0%{
+		transform:rotate(360deg);
+	}
+	100%{
+		transform:rotate(0);
+	}
+}
+
+.contact-text{
+	color: #62bfad;
+	margin: 1% 0 0 28%;
+	
+}
+
+/* about */
+.topic-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0 15%;
+	
+}
+.text-1{
+	font-size: 15px;
+	line-height: 200%;
+}
+.img-1{
+	width: 355px;
+	margin: 35px 30px;
+}
+.neirong{
+	font-size: 15px;
+	
+
+}
+.topic-3{
+	width: 850px;
+	font-size: 15px;
+	margin: 0 15%;
+	line-height: 200%;
+}v
